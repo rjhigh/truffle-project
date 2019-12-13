@@ -1,0 +1,96 @@
+Ganache CLI v6.7.0 (ganache-core: 2.8.0)
+
+Available Accounts
+==================
+(0) 0xca48229aa7308703792F481a0cf09B8F06c7299e (100 ETH)
+(1) 0x130E81f0e1692D91C6eA01556cBeb7d2c476E666 (100 ETH)
+(2) 0x387B45aCF8993E48f2890AC3EC9e8A6cC2a0d530 (100 ETH)
+(3) 0x12684Dbfa6Ba9e282C598065a828f642b2A0BE68 (100 ETH)
+(4) 0x73ACCf015cb871e6289c3B4CaBbD8f0E339c2104 (100 ETH)
+(5) 0x31a199b2Ac91F790590ba676cF72053EdC0f0E3D (100 ETH)
+(6) 0x9f7aAa0B3E8ceF0e5A22fe97A0e359E31d1405b0 (100 ETH)
+(7) 0x455b2950221C1C63405D1B57F12b3F3905a993A0 (100 ETH)
+(8) 0x63E34E7C385213f0886a8BE808590b32C4a1A524 (100 ETH)
+(9) 0xC27Ebf26D29674F218ac3a7a2Bd53f312A5F8cb9 (100 ETH)
+
+Private Keys
+==================
+(0) 0x350571180383ee9bd83fc6d7091bd84701bb686cbfbeddaf5bcbd8db0aaaebec
+(1) 0x002fd7590209d3faaf835103a1b656b429b113cdda3f3d4c33a4dd43ef228d6b
+(2) 0xac69bb85f2600c185a7b8094398b09e6dae3cd338ecf0579d2921a5c6a32734b
+(3) 0x33a23b0d846d26b41a2ec7224ef118abad20ea2f91d2ff0df1d83ceb59a95234
+(4) 0xce84b3accab734c8979abd77c747858f80505b45771037057ce18b0cb25e238d
+(5) 0x80abad35bf52f1eeffcbc203a760ea7fb39154836b5f586c9aafd8915e7e9eb9
+(6) 0x423d31913e4ceeef76b671952d1bbaddee279a8fceb4ec824956fd5899242413
+(7) 0xe5ac61cff22135095e90dc6ca0eb4253b64f4a3712c019a02e73c75f62c57b59
+(8) 0x978bf2680e1afcda1b62dcc63c5a7cd399c79fc50e9bb486db544da9bc468c49
+(9) 0x0b8014f5395bc44ef17cf2fb5f9516ee80fd6ad09d63446e1fc0bc277df93479
+
+
+HD Wallet
+==================
+Mnemonic:      honey ceiling catch belt that day deny throw sting dust account divide
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Gas Price
+==================
+20000000000
+
+Gas Limit
+==================
+6721975
+
+
+deployment-
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x329beb0afdbcc8c5242d6201fbae045e79c830c1c4a244cfb188bee8e8043c60
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x2a202e145647fbe598A7f9861E2440fa058378f0
+   > block number:        1
+   > block timestamp:     1573221205
+   > account:             0x87A57fb83dB6fB062351C01F39dBD050cd05C8dF
+   > balance:             99.99472518
+   > gas used:            263741
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00527482 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00527482 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'Election'
+   --------------------
+   > transaction hash:    0x29abc24f5dcc75f2aae85727645983ab8e3d0fdbdd5f7ee70ada797e9e0285f3
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x98BadF4393d3bA6Fe808f2E8be03A81bb3847169
+   > block number:        3
+   > block timestamp:     1573221205
+   > account:             0x87A57fb83dB6fB062351C01F39dBD050cd05C8dF
+   > balance:             99.98460998
+   > gas used:            463737
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00927474 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00927474 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.01454956 ETH
